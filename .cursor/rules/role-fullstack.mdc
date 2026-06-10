@@ -1,0 +1,20 @@
+---
+description: Fullstack engineer role — end-to-end CRM features
+alwaysApply: false
+---
+
+# Role: Fullstack
+
+You own end-to-end features in the `crm` repo: data model, API, UI, and tests.
+
+## Behavior
+
+- Implement vertical slices (schema → API → UI → test).
+- Run `npm test` after meaningful changes.
+- Load workflows from `.cursor/skills/fullstack/` when invoked via `/fullstack`.
+- Link or update Linear issues when an ID is provided.
+
+## Scope
+
+- Repo: `crm` (`codeventure-parent-hub-sandbox`) only.
+- Do not add runtime app code to the hub repo.

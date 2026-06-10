@@ -1,0 +1,22 @@
+---
+description: Security guardrails for sandbox CRM PoC
+alwaysApply: true
+---
+
+# Security
+
+## Secrets
+
+- Never commit `.env`, `.env.local`, API keys, or MCP tokens.
+- Use `.env.example` with placeholder values only.
+- Keep machine-specific overrides in `repos.local.yaml` (gitignored).
+
+## Test data
+
+- No real customer PII in sandbox fixtures, seeds, or screenshots.
+- Use obviously fake names, emails, and phone numbers.
+
+## Dependencies
+
+- Prefer well-known packages; avoid copying credentials into config files.
+- Do not log secrets in dev servers or test output.

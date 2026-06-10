@@ -1,0 +1,36 @@
+---
+description: Core hub behavior for sandbox CRM PoC — always active
+alwaysApply: true
+---
+
+# Hub always rules
+
+Before editing product code:
+
+1. Read `repos.yaml` at the hub root.
+2. If `repos.local.yaml` exists, merge overrides (especially `repos.*.path`).
+
+## Repo boundaries
+
+- **Product code** lives only in the `crm` repo (`codeventure-parent-hub-sandbox`).
+- **This hub** holds agent config only — no app runtime code, no API servers, no UI bundles.
+
+## Roles and commands
+
+Use slash commands to set role behavior: `/fullstack`, `/frontend`, `/qa`, `/pm`.
+
+## MCP integrations
+
+- **Linear** — issues and triage
+- **Notion** — specs and PRDs
+- **Figma** — UI handoff
+
+See `docs/mcp-setup.md` for setup. Never commit secrets or tokens.
+
+## Git safety
+
+Never commit or push unless the user explicitly asks.
+
+## Parallel exploration
+
+For broad repo exploration, use Task subagents (`explore`, `shell`). Do **not** spawn role-clone subagents (one subagent per role).

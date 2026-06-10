@@ -1,0 +1,30 @@
+---
+description: Conventions for the CRM product repo
+globs: "**/codeventure-parent-hub-sandbox/**"
+alwaysApply: false
+---
+
+# CRM repo conventions
+
+Placeholder until the CRM app is scaffolded. Follow these defaults when adding code.
+
+## Stack
+
+- TypeScript, single `package.json` at repo root.
+- One command serves UI + API: `npm run dev`.
+
+## Layout (TBD at scaffold)
+
+- API routes: `src/server/` or `app/api/`
+- UI: `src/client/` or `app/`
+- Shared types: colocate with API or `src/types/`
+
+## Data
+
+- Local persistence: SQLite or JSON file (per `docs/crm-poc-scope.md`).
+- No external DB required for PoC.
+
+## Quality
+
+- Run `npm test` and `npm run lint` before marking work done.
+- Match existing file naming and import style in the repo.

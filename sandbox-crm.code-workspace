@@ -1,0 +1,17 @@
+{
+  "folders": [
+    {
+      "name": "Agent Hub",
+      "path": "."
+    },
+    {
+      "name": "CRM",
+      "path": "../codeventure-parent-hub-sandbox"
+    }
+  ],
+  "settings": {
+    "files.exclude": {
+      "**/.DS_Store": true
+    }
+  }
+}

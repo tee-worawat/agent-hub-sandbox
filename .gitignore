@@ -1,0 +1,5 @@
+repos.local.yaml
+.env
+.env.local
+*.log
+.DS_Store

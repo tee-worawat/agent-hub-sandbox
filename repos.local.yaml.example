@@ -1,0 +1,15 @@
+# Copy to repos.local.yaml (gitignored) to override paths on your machine.
+#
+#   cp repos.local.yaml.example repos.local.yaml
+#
+# Example: CRM repo lives elsewhere
+#
+# version: 1
+# repos:
+#   crm:
+#     path: /Users/you/Projects/codeventure-parent-hub-sandbox
+
+version: 1
+repos:
+  crm:
+    path: ../codeventure-parent-hub-sandbox

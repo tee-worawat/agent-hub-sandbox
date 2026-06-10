@@ -1,0 +1,27 @@
+version: 1
+sandbox: true
+product: local-crm
+
+repos:
+  crm:
+    name: codeventure-parent-hub-sandbox
+    path: ../codeventure-parent-hub-sandbox
+    description: Local CRM PoC (contacts, companies, deals)
+    stack:
+      - typescript
+      - node
+      - react
+    roles: [fullstack, frontend, qa, pm]
+    commands:
+      install: "npm install"
+      dev: "npm run dev"
+      test: "npm test"
+      lint: "npm run lint"
+    linear:
+      team: Sandbox
+      project: CRM PoC
+    notion:
+      database: CRM Specs
+    figma:
+      file_key: REPLACE_ME
+      pages: [CRM, Components]
