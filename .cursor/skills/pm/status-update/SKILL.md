@@ -1,7 +1,7 @@
 ---
 name: status-update
 description: >-
-  Pulls Linear issue status for the Sandbox CRM PoC project and writes a short
+  Pulls Linear issue status for the Parent Hub PoC project and writes a short
   stakeholder summary. Use when PM needs a weekly or sprint status update.
 disable-model-invocation: true
 ---
@@ -15,14 +15,14 @@ disable-model-invocation: true
 
 ## Data gathering
 
-1. Read `repos.yaml` → Linear team **Sandbox**, project **CRM PoC**.
+1. Read `repos.yaml` → `repos.crm.linear` for team and project names.
 2. Use Linear MCP to list or filter issues by status, updated date, assignee.
-3. Skim Notion specs for major scope changes if relevant.
+3. Skim Notion **Codeventure PRD** pages for major scope changes if relevant.
 
 ## Summary template
 
 ```markdown
-# CRM PoC — Status [date]
+# Parent Hub PoC — Status [date]
 
 ## Highlights
 - Shipped / demo-ready items

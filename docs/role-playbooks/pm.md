@@ -8,27 +8,28 @@
 
 ## Typical flow
 
-1. Draft PRD → Notion
-2. Write Given/When/Then AC per story
-3. Track execution in Linear
-4. Publish status updates
+1. **Intake** — capture requirement from stakeholder
+2. **PRD** — draft and publish to Notion **Codeventure PRD** (user stories without AC)
+3. **Review gate** — stakeholder approves ("green light")
+4. **Linear tasks** — create epic + one issue per user story (description, diagram, Figma, AC)
+5. **Status updates** — weekly or sprint summaries from Linear
 
 ## Example prompts
 
 ```
-Draft a PRD for the deals pipeline MVP and save to Notion CRM Specs.
+Draft a PRD for the deals pipeline MVP and save to Notion Codeventure PRD.
 ```
 
 ```
-Write acceptance criteria for contact search and filter.
+Green light on the contact search PRD — create Linear tasks with diagrams and AC.
 ```
 
 ```
-Triage the Sandbox CRM backlog (delegate linear-triage) and suggest sprint order.
+Triage the Parent Hub backlog and suggest sprint order.
 ```
 
 ```
-Weekly status update for CRM PoC stakeholders.
+Weekly status update for Parent Hub PoC stakeholders.
 ```
 
 ## Skills loaded by `/pm`
@@ -37,5 +38,6 @@ Weekly status update for CRM PoC stakeholders.
 - `shared/linear-issue`
 - `shared/notion-spec`
 - `pm/prd-draft`
+- `pm/linear-story`
 - `pm/acceptance-criteria`
 - `pm/status-update`

@@ -1,39 +1,45 @@
 ---
 name: acceptance-criteria
 description: >-
-  Writes Given/When/Then acceptance criteria per user story for CRM features.
-  Use when PM or engineering needs testable criteria before implementation in
-  the sandbox CRM PoC.
+  Generates Given/When/Then acceptance criteria for a single user story, formatted
+  for embedding in a Linear issue description. Use during Phase 4 task creation
+  after PRD approval — not when drafting the Notion PRD.
 disable-model-invocation: true
 ---
 
 # Acceptance criteria
 
+## When to use
+
+- During **Linear task creation** (Phase 4) after PRD approval.
+- Called by **linear-story** for each user story.
+- Do **not** append acceptance criteria to the Notion PRD.
+
 ## Inputs
 
-- User story or feature name
-- Optional: PRD from Notion, Linear issue
+- User story ID and summary (from approved Notion PRD)
+- Optional: PRD context (scope, personas), Figma design notes
 
 ## Format
 
-For each story, provide 3–7 criteria in **Given / When / Then**:
+Output plain text for a fenced code block inside the Linear issue (not markdown bullets):
 
-```markdown
-### US-001: [Story title]
-
-**AC-1**
-- **Given** [initial state]
-- **When** [action]
-- **Then** [observable outcome]
-
-**AC-2**
-...
 ```
+Given [concrete precondition]
+When [single user or system action]
+Then [observable, verifiable outcome]
+
+Given ...
+When ...
+Then ...
+```
+
+Provide 3–7 criteria per story.
 
 ## Quality rules
 
 - **Given** — concrete preconditions (data exists, user on screen X)
-- **When** — single user or system action
+- **When** — single user or system action per criterion
 - **Then** — verifiable result (UI text, DB state, API response)
 - Avoid implementation details unless necessary for clarity
 - Include negative cases where relevant
@@ -46,5 +52,5 @@ For each story, provide 3–7 criteria in **Given / When / Then**:
 
 ## Output
 
-- AC block per story, ready for QA test plans
-- Optional: append to Notion spec via **notion-spec**
+- Plain-text AC block ready to embed in a Linear issue description
+- Consumed by **linear-story** — do not publish to Notion

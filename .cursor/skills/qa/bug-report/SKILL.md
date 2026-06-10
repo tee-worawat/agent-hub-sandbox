@@ -51,7 +51,7 @@ Workarounds, related issues
 
 ## Linear workflow
 
-1. Search for duplicate issues in team **Sandbox**, project **CRM PoC**.
+1. Read `repos.yaml` → `repos.crm.linear` for team and project; search for duplicate issues.
 2. Create via `save_issue` or update existing with `save_comment`.
 3. Set title, description (template above), priority from severity.
 

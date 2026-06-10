@@ -19,9 +19,9 @@ Entry point for AI-assisted work on the local CRM proof-of-concept.
 
 ### PM (`/pm`)
 
-- "Draft a PRD for contact–company linking and save to Notion."
-- "Write acceptance criteria for the deals pipeline."
-- "Summarize CRM PoC progress from Linear this week."
+- "Draft a PRD for contact–company linking and save to Notion Codeventure PRD."
+- "Green light on the deals pipeline PRD — create Linear tasks."
+- "Summarize Parent Hub PoC progress from Linear this week."
 
 ### Fullstack (`/fullstack`)
 
@@ -43,7 +43,7 @@ Entry point for AI-assisted work on the local CRM proof-of-concept.
 ## Subagents
 
 - **`repo-explorer`** — map CRM routes, components, tests (read-only)
-- **`linear-triage`** — prioritize Sandbox backlog (read-only)
+- **`linear-triage`** — prioritize Linear backlog (read-only)
 
 ## More detail
 

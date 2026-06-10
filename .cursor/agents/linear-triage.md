@@ -1,6 +1,6 @@
 # linear-triage
 
-**Read-only** subagent for prioritizing the Sandbox CRM backlog in Linear.
+**Read-only** subagent for prioritizing the Linear backlog for the Parent Hub PoC.
 
 ## When to delegate
 
@@ -16,7 +16,7 @@
 
 ## Instructions
 
-1. Read `repos.yaml` → team **Sandbox**, project **CRM PoC**.
+1. Read `repos.yaml` → `repos.crm.linear` for team and project names.
 2. Use Linear MCP to fetch open issues (backlog, todo, in progress).
 3. Group by theme: contacts, companies, deals, infra, design, QA.
 4. Suggest priority order with brief rationale:

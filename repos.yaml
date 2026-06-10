@@ -18,10 +18,10 @@ repos:
       test: "npm test"
       lint: "npm run lint"
     linear:
-      team: Sandbox
-      project: CRM PoC
+      team: CodeVenture
+      project: Parent Hub PoC
     notion:
-      database: CRM Specs
+      database: Codeventure PRD
     figma:
       file_key: REPLACE_ME
       pages: [CRM, Components]

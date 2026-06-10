@@ -8,18 +8,18 @@ Configure MCP servers in **Cursor Settings → MCP** (or your team’s shared MC
 
 | Role | Typical actions |
 |------|-----------------|
-| PM | List issues, status updates |
+| PM | Create epic + story issues from approved PRDs, status updates |
 | QA | File bugs, attach repro |
 | Fullstack | Comment on completion |
 
 **Sandbox defaults** (from `repos.yaml`):
 
-- Team: `Sandbox`
-- Project: `CRM PoC`
+- Team: `CodeVenture`
+- Project: `Parent Hub PoC`
 
 **Auth:** Linear API key or OAuth via Cursor Linear plugin. Store credentials in Cursor settings only.
 
-**Common tools:** `get_issue`, `save_issue`, `save_comment`, list/search issues (check MCP tool schema before calling).
+**Common tools:** `get_issue`, `save_issue`, `save_comment`, `list_issues` (check MCP tool schema before calling).
 
 ## Notion
 
@@ -27,8 +27,8 @@ Configure MCP servers in **Cursor Settings → MCP** (or your team’s shared MC
 
 | Role | Typical actions |
 |------|-----------------|
-| PM | Create/update PRDs in **CRM Specs** |
-| Engineering | Read spec pages before building |
+| PM | Create/update PRDs in **Codeventure PRD** |
+| Engineering | Read PRD pages before building; AC lives on Linear issues |
 
 **Auth:** Notion integration token in Cursor MCP config — never in repo files.
 
@@ -36,10 +36,11 @@ Configure MCP servers in **Cursor Settings → MCP** (or your team’s shared MC
 
 ## Figma
 
-**Used by:** Frontend, Fullstack (UI features)
+**Used by:** PM (link in Linear stories), Frontend, Fullstack (UI features)
 
 | Role | Typical actions |
 |------|-----------------|
+| PM | Add Figma links to Linear story issues during Phase 4 |
 | Frontend | `get_design_context` from handoff URLs |
 | Fullstack | Same when building UI-heavy slices |
 
@@ -49,8 +50,8 @@ Configure MCP servers in **Cursor Settings → MCP** (or your team’s shared MC
 
 ## Verification checklist
 
-- [ ] Linear: can fetch an issue from team Sandbox
-- [ ] Notion: can search workspace or query CRM Specs
+- [ ] Linear: can fetch an issue from team CodeVenture
+- [ ] Notion: can search workspace or query Codeventure PRD
 - [ ] Figma: can open design context for a test node
 
 ## Troubleshooting
