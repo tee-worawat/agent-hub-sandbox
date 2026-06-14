@@ -4,8 +4,8 @@ product: local-crm
 
 repos:
   crm:
-    name: codeventure-parent-hub-sandbox
-    path: ../codeventure-parent-hub-sandbox
+    name: parent-hub-sandbox
+    path: ../parent-hub-sandbox
     description: Local CRM PoC (contacts, companies, deals)
     stack:
       - typescript
@@ -18,10 +18,10 @@ repos:
       test: "npm test"
       lint: "npm run lint"
     linear:
-      team: CodeVenture
-      project: Parent Hub PoC
+      team: Sandbox
+      project: Parent360 PoC
     notion:
-      database: Codeventure PRD
+      database: Product PRD
     figma:
       file_key: REPLACE_ME
       pages: [CRM, Components]

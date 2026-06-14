@@ -6,22 +6,22 @@ Entry point for AI-assisted work on the local CRM proof-of-concept.
 
 1. Open **`sandbox-crm.code-workspace`** in Cursor (Agent Hub + CRM folders).
 2. Pick a role command: **`/pm`**, **`/fullstack`**, **`/frontend`**, **`/qa`**.
-3. Agent reads **`repos.yaml`** (and optional **`repos.local.yaml`**) → works in **`codeventure-parent-hub-sandbox`**.
+3. Agent reads **`repos.yaml`** (and optional **`repos.local.yaml`**) → works in **`parent-hub-sandbox`**.
 
 ## Repo map
 
 | Repo | Folder | What goes here |
 |------|--------|----------------|
 | Hub | `agent-hub-sandbox` | Rules, skills, commands, docs |
-| CRM | `codeventure-parent-hub-sandbox` | App code only |
+| CRM | `parent-hub-sandbox` | App code only |
 
 ## Example prompts by role
 
 ### PM (`/pm`)
 
-- "Draft a PRD for contact–company linking and save to Notion Codeventure PRD."
+- "Draft a PRD for contact–company linking and save to Notion Product PRD."
 - "Green light on the deals pipeline PRD — create Linear tasks."
-- "Summarize Parent Hub PoC progress from Linear this week."
+- "Summarize Parent360 PoC progress from Linear this week."
 
 ### Fullstack (`/fullstack`)
 

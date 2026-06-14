@@ -12,7 +12,7 @@ Before editing product code:
 
 ## Repo boundaries
 
-- **Product code** lives only in the `crm` repo (`codeventure-parent-hub-sandbox`).
+- **Product code** lives only in the `crm` repo (`parent-hub-sandbox`).
 - **This hub** holds agent config only — no app runtime code, no API servers, no UI bundles.
 
 ## Roles and commands

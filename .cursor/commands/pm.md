@@ -27,7 +27,7 @@
 
 ### Phase 2 — PRD (Notion)
 
-- Draft PRD → publish to **Codeventure PRD** via **notion-spec**.
+- Draft PRD → publish to **Product PRD** via **notion-spec**.
 - User stories: ID + title + one-line "As a … I want … so that …" only.
 - No acceptance criteria, diagrams, or Figma links in the PRD.
 
@@ -46,7 +46,7 @@
 
 ## Output expectations
 
-- PRD drafts → Notion **Codeventure PRD** (stories without AC)
+- PRD drafts → Notion **Product PRD** (stories without AC)
 - Linear tasks → 1 per user story (description, diagram, Figma link, AC)
 - Stakeholder status summaries from Linear
 - No code changes unless explicitly requested
@@ -55,4 +55,4 @@
 
 - "Draft a PRD for the deals pipeline MVP."
 - "Green light on the contact search PRD — create Linear tasks."
-- "Summarize Parent Hub PoC progress for this week."
+- "Summarize Parent360 PoC progress for this week."

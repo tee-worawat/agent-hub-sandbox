@@ -1,6 +1,6 @@
 ---
 description: Conventions for the CRM product repo
-globs: "**/codeventure-parent-hub-sandbox/**"
+globs: "**/parent-hub-sandbox/**"
 alwaysApply: false
 ---
 

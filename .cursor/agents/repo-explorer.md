@@ -17,7 +17,7 @@
 ## Instructions
 
 1. Resolve CRM path from `repos.yaml` (+ `repos.local.yaml`).
-2. Explore `codeventure-parent-hub-sandbox` only.
+2. Explore `parent-hub-sandbox` only.
 3. Return a structured map:
 
 ```markdown

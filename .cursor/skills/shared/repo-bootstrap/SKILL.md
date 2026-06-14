@@ -14,7 +14,7 @@ disable-model-invocation: true
 1. Read `repos.yaml` from the hub root.
 2. If `repos.local.yaml` exists, merge path overrides for `repos.crm`.
 3. Resolve the absolute path to the CRM repo (`repos.crm.path` relative to hub root).
-4. Verify the directory exists. If missing, tell the user to scaffold `codeventure-parent-hub-sandbox` first (see `docs/crm-poc-scope.md`).
+4. Verify the directory exists. If missing, tell the user to scaffold `parent-hub-sandbox` first (see `docs/crm-poc-scope.md`).
 
 ## Print dev commands
 

@@ -3,7 +3,7 @@ name: notion-spec
 description: >-
   Reads and writes CRM product specs in Notion via Notion MCP. Use when drafting
   PRDs, fetching spec pages, or updating links after Linear task creation. Uses
-  the Codeventure PRD database defined in repos.yaml.
+  the Product PRD database defined in repos.yaml.
 disable-model-invocation: true
 ---
 
@@ -15,7 +15,7 @@ From `repos.yaml`:
 
 ```yaml
 notion:
-  database: Codeventure PRD
+  database: Product PRD
 ```
 
 ## MCP tools
@@ -23,7 +23,7 @@ notion:
 Use Notion MCP (check tool schema before calling):
 
 - Search workspace for pages matching feature or spec keywords
-- Query **Codeventure PRD** database when listing or filtering specs
+- Query **Product PRD** database when listing or filtering specs
 - Create or update pages with structured sections (see below)
 
 ## PRD page template

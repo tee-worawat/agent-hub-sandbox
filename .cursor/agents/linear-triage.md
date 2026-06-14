@@ -1,6 +1,6 @@
 # linear-triage
 
-**Read-only** subagent for prioritizing the Linear backlog for the Parent Hub PoC.
+**Read-only** subagent for prioritizing the Linear backlog for the Parent360 PoC.
 
 ## When to delegate
 

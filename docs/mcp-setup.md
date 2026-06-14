@@ -14,8 +14,8 @@ Configure MCP servers in **Cursor Settings → MCP** (or your team’s shared MC
 
 **Sandbox defaults** (from `repos.yaml`):
 
-- Team: `CodeVenture`
-- Project: `Parent Hub PoC`
+- Team: `Sandbox`
+- Project: `Parent360 PoC`
 
 **Auth:** Linear API key or OAuth via Cursor Linear plugin. Store credentials in Cursor settings only.
 
@@ -27,7 +27,7 @@ Configure MCP servers in **Cursor Settings → MCP** (or your team’s shared MC
 
 | Role | Typical actions |
 |------|-----------------|
-| PM | Create/update PRDs in **Codeventure PRD** |
+| PM | Create/update PRDs in **Product PRD** |
 | Engineering | Read PRD pages before building; AC lives on Linear issues |
 
 **Auth:** Notion integration token in Cursor MCP config — never in repo files.
@@ -50,8 +50,8 @@ Configure MCP servers in **Cursor Settings → MCP** (or your team’s shared MC
 
 ## Verification checklist
 
-- [ ] Linear: can fetch an issue from team CodeVenture
-- [ ] Notion: can search workspace or query Codeventure PRD
+- [ ] Linear: can fetch an issue from team Sandbox
+- [ ] Notion: can search workspace or query Product PRD
 - [ ] Figma: can open design context for a test node
 
 ## Troubleshooting

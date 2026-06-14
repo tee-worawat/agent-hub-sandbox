@@ -64,7 +64,7 @@ Decisions needed before build.
 
 1. Align with `docs/crm-poc-scope.md` for MVP boundaries.
 2. Draft in chat for user review.
-3. Publish to Notion **Codeventure PRD** via **notion-spec** skill.
+3. Publish to Notion **Product PRD** via **notion-spec** skill.
 4. **Stop** — do not create Linear issues until the user gives explicit green light.
 5. After approval → hand off to **linear-story** and **linear-issue** for Phase 4.
 

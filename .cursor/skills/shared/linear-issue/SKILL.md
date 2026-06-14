@@ -22,8 +22,8 @@ Always read from `repos.yaml` → `repos.crm.linear`:
 
 ```yaml
 linear:
-  team: CodeVenture
-  project: Parent Hub PoC
+  team: Sandbox
+  project: Parent360 PoC
 ```
 
 Do not hardcode team or project names elsewhere.

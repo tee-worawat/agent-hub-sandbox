@@ -7,9 +7,9 @@
 # version: 1
 # repos:
 #   crm:
-#     path: /Users/you/Projects/codeventure-parent-hub-sandbox
+#     path: /Users/you/Projects/parent-hub-sandbox
 
 version: 1
 repos:
   crm:
-    path: ../codeventure-parent-hub-sandbox
+    path: ../parent-hub-sandbox

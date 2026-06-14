@@ -7,7 +7,7 @@ This sandbox separates **agent configuration** from **product code** to rehearse
 | Key | Folder | Purpose |
 |-----|--------|---------|
 | `hub` | `agent-hub-sandbox` | Rules, skills, commands, repo map, MCP docs |
-| `crm` | `codeventure-parent-hub-sandbox` | Full-stack CRM app (contacts, companies, deals) |
+| `crm` | `parent-hub-sandbox` | Full-stack CRM app (contacts, companies, deals) |
 
 Paths are defined in `repos.yaml`. Override locally with `repos.local.yaml` (gitignored).
 
@@ -77,5 +77,5 @@ Use Cursor Task subagents (`explore`, `shell`) for parallel repo exploration —
 ## Boundaries
 
 - **No app runtime code** in the hub repo.
-- **No production CodeVenture repo references** in this sandbox.
+- **No production repo references** in this sandbox.
 - **No secrets** in git — use `.env.example` and local MCP auth.

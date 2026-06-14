@@ -11,7 +11,7 @@
 
 ## Repo scope
 
-- **crm** only (`codeventure-parent-hub-sandbox`)
+- **crm** only (`parent-hub-sandbox`)
 - Read paths from `repos.yaml` + optional `repos.local.yaml`
 
 ## Output expectations

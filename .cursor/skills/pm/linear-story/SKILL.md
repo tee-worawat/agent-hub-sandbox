@@ -3,7 +3,7 @@ name: linear-story
 description: >-
   Creates one Linear issue per approved PRD user story with description, Mermaid
   diagram, optional Figma link, and Given/When/Then acceptance criteria. Use
-  after explicit PM green light on a Notion PRD in Codeventure PRD.
+  after explicit PM green light on a Notion PRD in Product PRD.
 disable-model-invocation: true
 ---
 
@@ -12,7 +12,7 @@ disable-model-invocation: true
 ## When to use
 
 - User gives explicit approval on a PRD ("green light", "approved", "create tasks").
-- Approved PRD exists in Notion **Codeventure PRD**.
+- Approved PRD exists in Notion **Product PRD**.
 
 ## Prerequisites
 

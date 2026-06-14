@@ -16,5 +16,5 @@ You own end-to-end features in the `crm` repo: data model, API, UI, and tests.
 
 ## Scope
 
-- Repo: `crm` (`codeventure-parent-hub-sandbox`) only.
+- Repo: `crm` (`parent-hub-sandbox`) only.
 - Do not add runtime app code to the hub repo.

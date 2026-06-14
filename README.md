@@ -1,6 +1,6 @@
 # agent-hub-sandbox
 
-Agent OS for the sandbox CRM proof-of-concept: rules, skills, commands, and repo map. Product code lives in the sibling **`codeventure-parent-hub-sandbox`** repo.
+Agent OS for the sandbox CRM proof-of-concept: rules, skills, commands, and repo map. Product code lives in the sibling **`parent-hub-sandbox`** repo.
 
 ## Prerequisites
 
@@ -16,7 +16,7 @@ Agent OS for the sandbox CRM proof-of-concept: rules, skills, commands, and repo
 mkdir -p ~/Projects/sandbox-workspace
 cd ~/Projects/sandbox-workspace
 # Clone or copy agent-hub-sandbox here
-# Create or clone codeventure-parent-hub-sandbox as sibling folder
+# Create or clone parent-hub-sandbox as sibling folder
 ```
 
 Expected layout:
@@ -24,12 +24,12 @@ Expected layout:
 ```
 sandbox-workspace/
 ├── agent-hub-sandbox/          ← this repo
-└── codeventure-parent-hub-sandbox/   ← CRM app (scaffold next)
+└── parent-hub-sandbox/           ← CRM app (scaffold next)
 ```
 
 ### 2. Local path overrides (optional)
 
-If your CRM repo is not at `../codeventure-parent-hub-sandbox`:
+If your CRM repo is not at `../parent-hub-sandbox`:
 
 ```bash
 cp repos.local.yaml.example repos.local.yaml
@@ -51,7 +51,7 @@ Follow `docs/mcp-setup.md` for Linear, Notion, and Figma. Do not commit secrets.
 The CRM is **not** included in this hub repo. In a new chat with the workspace open, run **`/fullstack`** and use the scaffold prompt in `AGENTS.md` or:
 
 ```markdown
-Scaffold the sandbox CRM in `codeventure-parent-hub-sandbox` per `agent-hub-sandbox/docs/crm-poc-scope.md`.
+Scaffold the sandbox CRM in `parent-hub-sandbox` per `agent-hub-sandbox/docs/crm-poc-scope.md`.
 
 Requirements:
 - TypeScript, single repo, `npm run dev` runs locally
@@ -88,4 +88,4 @@ See `AGENTS.md` and `docs/role-playbooks/` for example prompts.
 
 ## License
 
-Internal sandbox — not for production CodeVenture deployment.
+MIT — sandbox demo for learning and experimentation.

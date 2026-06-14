@@ -10,7 +10,7 @@
 
 ## Repo scope
 
-- **crm** only (`codeventure-parent-hub-sandbox`)
+- **crm** only (`parent-hub-sandbox`)
 
 ## Output expectations
 

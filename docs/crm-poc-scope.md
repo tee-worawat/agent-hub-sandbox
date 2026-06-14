@@ -57,4 +57,4 @@ Local proof-of-concept CRM for the sandbox agent hub. Single repo, single dev co
 
 ## Scaffold follow-up
 
-After this hub exists, scaffold the CRM in `codeventure-parent-hub-sandbox` using the prompt in `README.md` / `AGENTS.md`.
+After this hub exists, scaffold the CRM in `parent-hub-sandbox` using the prompt in `README.md` / `AGENTS.md`.
